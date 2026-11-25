@@ -1,0 +1,19 @@
+[project]
+name = "karpathy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.0",
+    "numpy>=2.5.1",
+    "pandas>=3.0.5",
+    "pydot>=4.0.1",
+    "pygraphviz>=2.0",
+    "scikit-learn>=1.9.0",
+]
+
+[tool.ruff]
+extend-exclude = ["*.ipynb"]
